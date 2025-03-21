@@ -11,10 +11,10 @@ import { useAuthStore } from "./store/useAuthStore";
 import { useEffect } from "react";
 function App() {
   const { authUser, checkAuth, isCheckingAuth } = useAuthStore();
+
   useEffect(() => {
     checkAuth();
   }, [checkAuth]);
-  // console.log({ authUser });
 
   if (isCheckingAuth && !authUser) {
     return (

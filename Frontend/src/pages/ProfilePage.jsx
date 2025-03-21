@@ -35,6 +35,7 @@ const ProfilePage = () => {
                   <img
                     src={
                       selectedImage ||
+                      authUser.user.profilePic ||
                       authUser.profilePic ||
                       "https://img.freepik.com/free-vector/hand-drawn-nft-style-ape-illustration_23-2149622024.jpg?t=st=1741870989~exp=1741874589~hmac=4242ab6efd87c15710ca368d68998c0d7826eaf0d5336ef40c97a3a583ccb673&w=826"
                     }
@@ -44,6 +45,7 @@ const ProfilePage = () => {
                 </div>
 
                 {/* Upload Button */}
+
                 <label
                   htmlFor="avatar-upload"
                   className={` bg-blue-500
