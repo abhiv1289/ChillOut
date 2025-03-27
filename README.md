@@ -1,6 +1,6 @@
 # 🌟 ChillOut - Real-Time Chat Application
 
-![ChillOut Banner](https://media.giphy.com/media/j5QcmXoFWl0QRuRtBu/giphy.gif)
+![ChillOut Banner](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcmN0Y25rdzl6Mml2eGNpamp3aHJ0cmZtenpwZXpxZjEzZWtlYnpnZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xUPGcFeJiX8IImdEsw/giphy.gif)
 
 ## 🚀 Introduction
 **ChillOut** is a real-time chat application built using the **MERN stack** and **Socket.IO**, enabling users to send messages, share media, and track online status seamlessly. Designed for speed and efficiency, ChillOut offers a modern, interactive chatting experience.
